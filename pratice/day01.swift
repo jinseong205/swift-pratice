@@ -1,3 +1,5 @@
+//Day01 contional statement
+
 var isDarkMode : Bool = false
 
 if(isDarkMode){

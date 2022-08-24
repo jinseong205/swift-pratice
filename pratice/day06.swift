@@ -1,4 +1,4 @@
-//Day07 Class & struct 
+//Day06 Class & struct 
 
 //struct - youtuber model
 struct youtuberStruct{
