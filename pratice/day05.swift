@@ -1,4 +1,5 @@
-//optional > 값이 있는지 없는지 모른다.
+//Day05 Optional Variable
+//Optional > 값이 있는지 없는지 모른다. unwrap > wrapping variable > variable
 
 var someVar : Int? = nil
 
@@ -6,9 +7,7 @@ if someVar == nil{
 	someVar = 90
 }
 
-
-
-//언랩핑이란? wrap을 벗기는것 
+//unwrap
 if let otherVar = someVar{
 	print("unwrapping. > 값이 있다. othervar \(otherVar)")
 }else{
@@ -29,7 +28,6 @@ print("secondVal : \(secondVal)")
 
 func unwrap(_ parameter: Int?){
 	print("unwrap() called")
-	//값이 없으면 retrun
 	guard let unWrappedParam = parameter else{
 			return
 		}

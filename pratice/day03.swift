@@ -1,3 +1,5 @@
+//Day03 Enum
+
 enum School{
 	case elementary, middle, high
 }
