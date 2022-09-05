@@ -6,3 +6,4 @@ func testFunction(_ name:String) -> String{
 
 var returnValue:String = testFunction("jinseong")
 print(returnValue)
+
