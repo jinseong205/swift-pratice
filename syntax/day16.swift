@@ -18,6 +18,8 @@ func sayJob(_ name : inout String){
 	print("안녕? 난 \(name)이라고 해")
 }
 
+
+//inout 매개변수로 parameter를 넘길때에는 변수에 넣어서 &을 붙여서 넘긴다.
 var name = "진성"
 sayJob(&name)
 
